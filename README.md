@@ -13,4 +13,3 @@ E-commerce Back End with Express.js API, Sequelize and MySQL database
 
 ## Technologies Used
 
-## 
