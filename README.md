@@ -24,4 +24,6 @@ Code Source : applied throughout the entire process of building to our starter c
 
 GitHub URL : https://github.com/mayamccann/Object-Relational-Mapping
 
-🏆 Module 13 Challenge from the UConn Coding Bootcamp Cohort May 2023 🏆
+## UConn Coding Bootcamp Cohort May 2023 
+Module 13 Challenge 
+Object-Relational Mapping (ORM) Challenge: E-commerce Back End
