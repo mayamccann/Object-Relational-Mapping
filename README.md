@@ -7,17 +7,14 @@ E-commerce has a significant role in the field of technology through its benefit
 ## Description
 The Object-Relational Mapping (ORM) challenge : E-commerce Back End is to create the back end for an e-commerce site. The foundation of this application involves Express.js API with a concentration on Sequelize and MySQL database.
 
-## Usage 
-
-## Installation
-
-## Technologies Used
+## Usage and Technologies Used
 
 - Express.js API
 - Sequelize
 - MySQL database
 - Insomnia
 - Node
+- GitHub
 
 ## Credits
 
