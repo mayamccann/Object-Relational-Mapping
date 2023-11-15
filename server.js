@@ -7,5 +7,7 @@ const sequelize = require('./config/connection');
 // Then turn on the server is able
 
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => {
+    app.listen(PORT, () => 
+
+        console.log(''));
   });
