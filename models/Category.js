@@ -11,9 +11,16 @@ Category.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
+      autoIncrement: true
     },
-    
+
+// change the name to the file name model :category
+
+    category_name: {
+      type: DataTypes.STRING,
+      allowNull: false 
+    },
+
   },
   {
     sequelize,
