@@ -13,7 +13,12 @@ Product.belongsToCategory(Product, {
 });
 
 // Categories have many Products
-
+Category.belongsToMany(Product, {
+  through: {
+    model: Tag, ProductTag, Product, 
+    unique: false,
+  },
+})
 
 
 // Products belongToMany Tags (through ProductTag)
