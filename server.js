@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-
+// inspired by module 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -15,4 +15,8 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
 });
 
+// add more code for sequelize sync : do further research 
+sequelize.sync({
+
+});
   
