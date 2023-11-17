@@ -23,6 +23,15 @@ router.post('/', (req, res) => {
   // create a new category
 });
 
+// const newCategory with console.error. define the numbers - why? 
+const newCategory = await Category.create(req.body);
+res.status .json(newCategory)
+ catch (err) {
+  console.error(err);
+  res.status(500).json(err);
+}
+
+
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
 });
